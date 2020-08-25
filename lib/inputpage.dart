@@ -279,22 +279,6 @@ class _inputState extends State<InputPage> {
                         }),
                   )
                 ]),
-            SleekCircularSlider(
-              min: 0,
-              initialValue: lapsec.toDouble(),
-              appearance: CircularSliderAppearance(
-                  startAngle: 90,
-                  angleRange: 360,
-                  size: 200.0,
-                  customWidths: CustomSliderWidths(
-                      trackWidth: 10.0,
-                      progressBarWidth: 10.0,
-                      handlerSize: 8.0),
-                  customColors: CustomSliderColors(
-                      trackColor: Colors.white,
-                      progressBarColor: Colors.black,
-                      dotColor: Colors.black)),
-            ),
             (Lap == false && L > 0)
                 ? Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
